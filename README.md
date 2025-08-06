@@ -3,16 +3,7 @@
 
 ## Overview
 
-This comprehensive Jupyter notebook explores various forms of sequential data and their applications in machine learning. It demonstrates how to work with non-i.i.d. (non-identically and independently distributed) data, breaking the traditional assumption in machine learning that data points are independent of each other.
-
-## Learning Objectives
-
-- Various forms of sequential data and common tasks that can be modeled using sequential data
-- Decomposition of time-series and perform time-series imputation  
-- Pre-processing and vectorizing a text dataset
-- Pre-processing and visualizing an audio dataset, and creating spectrograms
-- Applying machine learning techniques to DNA sequence classification
-
+This comprehensive project explores various forms of sequential data and their applications in machine learning. It demonstrates how to work with non-i.i.d. (non-identically and independently distributed) data, breaking the traditional assumption in machine learning that data points are independent of each other.
 
 ## Key Concepts
 
@@ -205,21 +196,6 @@ The notebook uses several datasets:
    - Source: `human_data.txt` from IBM Skills Network
    - 4,380 sequences across 7 gene families
 
-## Key Learning Outcomes
-
-### Theoretical Understanding:
-- Difference between i.i.d. and sequential data
-- Challenges in sequential data modeling
-- Various types of sequential dependencies
-
-### Practical Skills:
-- Audio signal processing and visualization
-- Time series analysis and decomposition
-- Text preprocessing for NLP tasks
-- Bioinformatics sequence analysis
-- Feature engineering for sequential data
-- Machine learning with non-traditional data types
-
 
 ## Advanced Concepts Introduced
 
@@ -236,22 +212,6 @@ Formulation: Given training examples {(xi, yi)}^N_{i=1}, build model h that pred
 - **N-gram analysis**: Statistical language modeling techniques
 - **Spectrogram features**: Time-frequency domain representations
 
-## Best Practices Demonstrated
 
-### Data Preprocessing:
-- Proper handling of different data formats
-- Normalization and standardization techniques
-- Feature scaling and transformation
-
-### Model Development:
-- Train-test split methodology
-- Cross-validation strategies
-- Performance evaluation metrics
-- Model interpretation techniques
-
-### Visualization:
-- Effective plot design for different data types
-- Color schemes and accessibility considerations
-- Interactive and informative displays
 
 

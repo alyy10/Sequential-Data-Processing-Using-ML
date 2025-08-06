@@ -182,35 +182,6 @@ nltk.download('omw-1.4')
 ```
 
 
-## Data Sources
-
-The notebook uses several datasets:
-
-1. **Financial Data**: Energy company stock prices (2003-present)
-   - Source: `financial-data.zip` from IBM Skills Network
-   
-2. **Speech Commands**: TensorFlow speech recognition dataset
-   - Automatic download via TensorFlow/Keras
-   
-3. **Human DNA Data**: Gene family classification dataset
-   - Source: `human_data.txt` from IBM Skills Network
-   - 4,380 sequences across 7 gene families
-
-
-## Advanced Concepts Introduced
-
-### 1. Sequential Supervised Learning
-Formulation: Given training examples {(xi, yi)}^N_{i=1}, build model h that predicts y = h(x) for input sequence x.
-
-### 2. Time Series Components
-- **Trend**: Long-term movement in data
-- **Seasonality**: Regular, predictable patterns
-- **Residuals**: Random variations after removing trend and seasonality
-
-### 3. Feature Engineering for Sequences
-- **K-mer decomposition**: Breaking sequences into overlapping subsequences
-- **N-gram analysis**: Statistical language modeling techniques
-- **Spectrogram features**: Time-frequency domain representations
 
 
 
